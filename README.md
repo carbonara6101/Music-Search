@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 🎵 Music Search - 음악 검색 & 아티스트 정보 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Spotify API(또는 직접 사용한 음악 API)를 활용한 음악/아티스트/앨범 검색, 상세 정보, 즐겨찾기 기능을 제공하는 React + Node 기반 웹앱입니다.
 
-## Available Scripts
+## ✨ 주요 기능
+- **음악/아티스트/앨범 검색**
+- **상세 정보 페이지** (아티스트, 앨범, 곡 정보 등)
+- **즐겨찾기/찜** (로컬스토리지 기반)
+- **반응형 UI** (PC/모바일 모두 최적화)
 
-In the project directory, you can run:
+## 🚀 배포 주소
+- [https://musicsearch1.netlify.app/](https://musicsearch1.netlify.app/)
 
-### `npm start`
+## 🛠️ 사용 기술
+- React
+- Node.js (Express)
+- Axios
+- (사용한 음악 API: 예시 - Spotify, Last.fm 등)
+- CSS (Custom)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥️ 실행 방법
+1. 이 저장소를 클론합니다.
+git clone https://github.com/yourid/your-music-search.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. 의존성 설치
+npm install
 
-### `npm test`
+3. (필요시) API 키를 `.env` 파일에 추가
+REACT_APP_SPOTIFY_KEY=여기에_본인_API_KEY
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. 개발 서버 실행
+npm start
 
-### `npm run build`
+   (프론트엔드와 백엔드가 동시에 실행됩니다)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🙋‍♂️ 만든이
+- [carbonara6101](https://github.com/carbonara6101)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> 본 프로젝트는 교육/포트폴리오/비상업적 용도로 제작되었습니다.
